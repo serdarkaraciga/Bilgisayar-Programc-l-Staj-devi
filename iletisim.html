@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image:url("background.jpg");
+            background-size: 100%;
+            font-family: "Samsung Sans";
+
+        }
+       a{
+            font-size: 21px;
+            border: 1px black solid;
+            margin: 10px;
+            padding: 10px;
+            background-color: #761C7B;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+        div{
+            text-align: center;
+        }
+        h1{
+            font-family: "Samsung Sans";
+            font-size: 35px;
+            color: white;
+        }
+        textarea{
+            background-color:#efefef;
+            font-weight:bold;
+            font-size: 15px;
+            padding: 3px;
+            font-family: "Samsung Sans";
+            border: 2px black solid;
+            color:#bd0c0c;
+        }
+        td{
+            text-align: center;
+            font-weight:bold;
+            font-size: 16pt;
+            font-family: "Samsung Sans";
+            color:white;
+        }
+        input{
+            background-color:#efefef;
+            width: 250px;
+            font-weight:bold;
+            color: #bd0c0c;
+            text-align: center;
+        }
+        form{
+            padding-left: 30%;
+            padding-top: 0%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>İletişim</title>
+</head>
+<body>
+<div>
+    <br>
+    <a href="index.html">AnaSayfa</a>
+    <a href="memleketim.html">Memleketim</a>
+    <a href="tarih.html">Sevdiğim Ders</a>
+    <a href="macbookm1.html">Macbook Air M1</a>
+    <a href="iletisim.html">&nbsp;&nbsp;İletişim&nbsp;&nbsp;</a>
+    <br><br><hr style="width: 50%;opacity: 0.7;">
+</div>
+<div align="center">
+    <br><br>
+    <h1>İletişim Formu</h1>
+    <hr width="20%">
+    <br>
+    <form method="post" action="mailto:isim@mail.com" style="margin-left: 8%;">
+        <input name="id" type="hidden" value="1775">
+        <table cellpadding="5px" border="1" style="background: rgba(118,28,123,0.45);border-radius: 10px;">
+            <tr>
+                <td align="right">Adınız : </td>
+                <td><input style="border-radius: 10px; width: 90%;" name="sender_name" type="text"></td>
+            </tr>
+            <tr>
+                <td align="right">e-Mail : </td>
+                <td><input style="border-radius: 10px; width: 90%;" name="sender_email" type="text"></td>
+            </tr>
+            <tr>
+                <td align="right">Konu : </td>
+                <td><input style="border-radius: 10px; width: 90%;" name="subject" type="text"></td>
+            </tr>
+            <tr>
+                <td align="right" valign="top">Mesaj : </td>
+                <td>
+<textarea style="border-radius: 10px;" rows="10" cols="40" name="message">
+</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input value="Gönder" name="send" type="submit" id="send" style="width:100px;color:black;border-radius: 10px;margin: 5px;"></td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+    </form>
+</div>
+
+</body>
+</html>
